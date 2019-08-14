@@ -1,0 +1,42 @@
+{
+  "name": "s3-manager",
+  "version": "1.1.2",
+  "description": "A wrapper around Amazon's AWS S3 to make upload, delete and listing S3 objects easy.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "Amazon",
+    "AWS",
+    "S3",
+    "aws",
+    "promise"
+  ],
+  "author": "Qaiser Abbas <qaiser110@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^2.2.0",
+    "eslint": "^6.1.0",
+    "nyc": "^14.1.1",
+    "sinon": "^7.4.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qaiser110/s3-manager"
+  },
+  "issues": {
+    "url": "https://github.com/qaiser110/s3-manager/issues"
+  },
+  "engine": "node >= 8.6.0",
+  "dependencies": {
+    "aws-sdk": "^2.509.0",
+    "aws-sdk-mock": "^4.5.0",
+    "dotenv": "^8.0.0",
+    "lodash": "^4.17.15",
+    "ramda": "^0.26.1"
+  }
+}
