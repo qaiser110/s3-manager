@@ -25,7 +25,7 @@ test('Delete the binary', async t => {
   const upload = await s3.upload(key, filePath)
   t.is(upload.Key, key)
 
-  const data = await s3.delete([key], filePath)
+  const data = await s3.delete([key])
   t.is(data.Deleted[0].Key, key)
 })
 
